@@ -46,6 +46,7 @@ let firstTime = true;
 class NowWhat extends Component {
   componentDidMount() {
     this.props.onLoad();
+    console.log(this.props)
   }
 
   render() {

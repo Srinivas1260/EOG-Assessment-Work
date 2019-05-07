@@ -58,7 +58,7 @@ const droneDataReceived = (state, action) => {
     temperature
   };
 
-  console.log(obj);
+  console.log( obj );
 
   return obj;
 };
